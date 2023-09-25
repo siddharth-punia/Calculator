@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+#container h4{
+    text-align: center;
+}
+
+#screen{
+     display: block; /* // inline element hai islie block banna padta hai
+     inline element pr jab tk alignment nhi hogi jab tk usko block nahi bnate */
+    margin: auto;
+}
+
+table{
+    border: 5px solid black;
+    margin:  20px auto;
+}
+
+td{
+    border: 1px solid black;
+    /* padding: 4px; */
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 10px rgb(81, 80, 80);
+    
+}
+
+td:active{
+    transform: scale(0.8);
+}
+
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
